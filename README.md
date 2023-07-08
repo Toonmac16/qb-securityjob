@@ -5,7 +5,8 @@ Credits to QB-Core for the original script, I merely edited to be used for anoth
 
 Job will need to be edited via config and main.lua, open both and search for "changeme" then set your desired Job name.
 
-Default vehicle is set to the Stockade but as this script was rewritten for a different vehicle in our server, you may need to change the offset for depositing cash into the truck, especially if you decide on another model, please do this by going to the main.lua and editing the offset values on line 227 ( local Coords = GetOffsetFromEntityInWorldCoords(securityVehicle, -2.0, 0.0, 0.0) )
+Default vehicle is set to the Stockade but as this script was rewritten for a different vehicle in our server, you may need to change the offset for depositing cash into the truck, especially if you decide on another model, please do this by going to the main.lua and editing the offset values on line 227: 
+local Coords = GetOffsetFromEntityInWorldCoords(securityVehicle, -2.0, 0.0, 0.0)
 
 To change the vehicle model simply change the model at the bottom of the config.lua and update the offset as stated above.
 
