@@ -228,7 +228,7 @@ local function RunWorkLoop()
                         local TruckDist = #(pos - Coords)
                         local TrucText = false
 
-                        if TruckDist < 2 then
+                        if TruckDist < 6 then
                             if not TrucText then
                                 TrucText = true
                                 exports['qb-core']:DrawText(Lang:t("info.dispose_cashpickup"), 'left')
