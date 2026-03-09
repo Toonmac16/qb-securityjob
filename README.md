@@ -21,3 +21,5 @@ created for latest version of qb-core.
 
 Visit the Ped at the Union Depository to begin working, a vehicle will be spawned for you and a waypoint to one of the shops or banks around the city.
 Collect the money from their safe and deposit it into the van.
+
+As of March 2026 this script is considered deprectaed / unmaintained, support is no longer guarenteed and updates are no longer planned.
